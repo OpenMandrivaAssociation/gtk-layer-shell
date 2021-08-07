@@ -54,7 +54,7 @@ development files for %{name}.
 %{_libdir}/girepository-1.0/GtkLayerShell-%{apiver}.?.typelib
 
 %files -n %{devname}
-%license COPYING
+%license
 %doc README.md
 %{_includedir}/%{name}
 %{_libdir}/pkgconfig/*.pc
