@@ -3,8 +3,8 @@
 %define devname %mklibname -d %{name}
 
 Name:           gtk-layer-shell
-Version:        0.1.0
-Release:        2%{?dist}
+Version:        0.6.0
+Release:        1
 Summary:        Library to create components for Wayland using the Layer Shell
 
 License:        MIT
@@ -54,7 +54,7 @@ development files for %{name}.
 %{_libdir}/girepository-1.0/GtkLayerShell-%{apiver}.?.typelib
 
 %files -n %{devname}
-%license COPYING
+%license
 %doc README.md
 %{_includedir}/%{name}
 %{_libdir}/pkgconfig/*.pc
