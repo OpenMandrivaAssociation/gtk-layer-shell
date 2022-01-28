@@ -3,7 +3,7 @@
 %define devname %mklibname -d %{name}
 
 Name:           gtk-layer-shell
-Version:        0.6.0
+Version:        0.7.0
 Release:        1
 Summary:        Library to create components for Wayland using the Layer Shell
 
