@@ -16,6 +16,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-wayland-3.0) >= 3.22.0
 BuildRequires:  pkgconfig(wayland-client) >= 1.10.0
 BuildRequires:  pkgconfig(wayland-scanner) >= 1.10.0
+BuildRequires:  pkgconfig(vapigen)
 
 %description
 A library to write GTK applications that use Layer Shell. Layer Shell is a
