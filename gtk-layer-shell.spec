@@ -61,3 +61,4 @@ development files for %{name}.
 %{_libdir}/pkgconfig/*.pc
 %{_libdir}/lib%{name}.so
 %{_datadir}/gir-1.0/GtkLayerShell-%{apiver}.?.gir
+%{_datadir}/vala/vapi/
