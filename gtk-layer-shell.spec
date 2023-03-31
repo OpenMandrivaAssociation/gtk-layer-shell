@@ -4,7 +4,7 @@
 
 Name:           gtk-layer-shell
 Version:        0.8.0
-Release:        1
+Release:        2
 Summary:        Library to create components for Wayland using the Layer Shell
 
 License:        MIT
