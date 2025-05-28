@@ -3,7 +3,7 @@
 %define devname %mklibname -d %{name}
 
 Name:           gtk-layer-shell
-Version:        0.9.1
+Version:        0.9.2
 Release:        1
 Summary:        Library to create components for Wayland using the Layer Shell
 
@@ -16,6 +16,7 @@ BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk+-wayland-3.0) >= 3.22.0
 BuildRequires:  pkgconfig(wayland-client) >= 1.10.0
 BuildRequires:  pkgconfig(wayland-scanner) >= 1.10.0
+BuildRequires:  pkgconfig(wayland-protocols)
 BuildRequires:  pkgconfig(vapigen)
 
 %description
@@ -41,7 +42,7 @@ Requires:       %{libname} = %{version}-%{release}
 development files for %{name}.
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 %meson
